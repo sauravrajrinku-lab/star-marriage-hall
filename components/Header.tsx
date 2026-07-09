@@ -24,12 +24,12 @@ export default function Header() {
         <div className="flex items-center justify-between h-20">
           {/* Logo & Brand */}
           <div className="flex items-center gap-3">
-            <div className="relative h-10 w-10 shrink-0">
+            <div className="relative h-14 w-14 shrink-0">
               <Image
                 src="/images/logo.png"
                 alt="Star Marriage Hall Logo"
                 fill
-                sizes="40px"
+                sizes="56px"
                 className="object-contain"
               />
             </div>

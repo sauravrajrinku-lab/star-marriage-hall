@@ -49,12 +49,12 @@ export default function Footer() {
           {/* Column 1: Logo & Blurb */}
           <div className="space-y-6">
             <div className="flex items-center gap-3">
-              <div className="relative h-10 w-10 shrink-0">
+              <div className="relative h-12 w-12 shrink-0">
                 <Image
                   src="/images/logo.png"
                   alt="Star Marriage Hall Logo"
                   fill
-                  sizes="40px"
+                  sizes="48px"
                   className="object-contain"
                 />
               </div>
