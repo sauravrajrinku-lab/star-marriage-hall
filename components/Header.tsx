@@ -2,7 +2,8 @@
 
 import * as React from "react";
 import Link from "next/link";
-import { Menu, X, Flower2 } from "lucide-react";
+import Image from "next/image";
+import { Menu, X } from "lucide-react";
 import { buttonVariants } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 
@@ -22,8 +23,16 @@ export default function Header() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
           {/* Logo & Brand */}
-          <div className="flex items-center gap-2">
-            <Flower2 className="h-6 w-6 text-primary animate-pulse" />
+          <div className="flex items-center gap-3">
+            <div className="relative h-10 w-10 shrink-0">
+              <Image
+                src="/images/logo.png"
+                alt="Star Marriage Hall Logo"
+                fill
+                sizes="40px"
+                className="object-contain"
+              />
+            </div>
             <Link href="/" className="font-heading text-xl font-bold text-background tracking-wider">
               STAR MARRIAGE HALL
             </Link>

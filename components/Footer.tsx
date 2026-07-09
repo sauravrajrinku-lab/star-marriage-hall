@@ -1,6 +1,7 @@
 "use client";
 
-import { Flower2, Facebook, Instagram, Youtube, Mail, Phone, MapPin } from "lucide-react";
+import Image from "next/image";
+import { Facebook, Instagram, Youtube, Mail, Phone, MapPin } from "lucide-react";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 
@@ -47,8 +48,16 @@ export default function Footer() {
           
           {/* Column 1: Logo & Blurb */}
           <div className="space-y-6">
-            <div className="flex items-center gap-2">
-              <Flower2 className="h-6 w-6 text-primary" />
+            <div className="flex items-center gap-3">
+              <div className="relative h-10 w-10 shrink-0">
+                <Image
+                  src="/images/logo.png"
+                  alt="Star Marriage Hall Logo"
+                  fill
+                  sizes="40px"
+                  className="object-contain"
+                />
+              </div>
               <span className="font-heading text-lg font-bold text-background tracking-wider">
                 STAR MARRIAGE HALL
               </span>
