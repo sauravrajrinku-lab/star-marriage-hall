@@ -48,7 +48,7 @@ export default function Header() {
               href="#gallery"
               className={cn(
                 buttonVariants({ variant: "outline" }),
-                "rounded-full border-background/20 text-background hover:bg-background hover:text-foreground px-6 py-2 h-auto text-sm font-medium transition-all duration-300"
+                "rounded-full border-background/20 bg-transparent text-background hover:bg-background hover:text-foreground px-6 py-2 h-auto text-sm font-medium transition-all duration-300"
               )}
             >
               Explore Gallery
@@ -97,7 +97,7 @@ export default function Header() {
                 onClick={() => setIsOpen(false)}
                 className={cn(
                   buttonVariants({ variant: "outline" }),
-                  "w-full rounded-full border-background/20 text-background hover:bg-background hover:text-foreground py-3 h-auto text-sm font-medium transition-all duration-300 text-center"
+                  "w-full rounded-full border-background/20 bg-transparent text-background hover:bg-background hover:text-foreground py-3 h-auto text-sm font-medium transition-all duration-300 text-center"
                 )}
               >
                 Explore Gallery

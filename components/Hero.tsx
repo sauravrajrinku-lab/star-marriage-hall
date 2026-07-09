@@ -47,7 +47,7 @@ export default function Hero() {
                 href="#gallery"
                 className={cn(
                   buttonVariants({ variant: "outline" }),
-                  "rounded-full border-foreground/20 text-foreground hover:bg-foreground hover:text-background px-8 py-6 h-auto text-base font-medium tracking-wide transition-all duration-300"
+                  "rounded-full border-foreground/20 bg-transparent text-foreground hover:bg-foreground hover:text-background px-8 py-6 h-auto text-base font-medium tracking-wide transition-all duration-300"
                 )}
               >
                 Explore Gallery
