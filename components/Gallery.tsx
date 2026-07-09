@@ -8,6 +8,7 @@ export default function Gallery() {
     { src: "/images/gallery-2.png", alt: "Groom and Bride Mandap Stage", className: "md:col-span-2 md:row-span-1" },
     { src: "/images/gallery-3.png", alt: "Exquisite Table Arrangements & Dining", className: "md:col-span-2 md:row-span-2" },
     { src: "/images/gallery-4.png", alt: "Beautiful Floral Chandelier Ceiling", className: "md:col-span-2 md:row-span-1" },
+    { src: "/images/gallery-7.png", alt: "Table Centerpiece & Tableware", className: "md:col-span-2 md:row-span-1" },
     { src: "/images/gallery-5.png", alt: "Sparkling Mehendi Ceremony Setup", className: "md:col-span-4 md:row-span-1" },
     { src: "/images/gallery-6.png", alt: "Grand Entrance Walkway Lighting", className: "md:col-span-2 md:row-span-1" },
   ];
